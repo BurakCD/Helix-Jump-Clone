@@ -5,12 +5,12 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     [Header("Settings")]
-    public GameObject ballObject;
+    public Rigidbody rb;
     public float jumpForce;
 
 
     private void OnCollisionEnter(Collision collision)
     {
-        ballObject.GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce);
+        rb.AddForce(Vector3.up * jumpForce);
     }
 }
