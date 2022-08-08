@@ -3174,7 +3174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Platform: {fileID: 1816114877}
-  Rotate_Speed: 800
+  Rotate_Speed: 801
 --- !u!4 &891742534
 Transform:
   m_ObjectHideFlags: 0

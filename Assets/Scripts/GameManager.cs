@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     public void GameScore(int ringscore)
     {
-        Score += ringscore;
+        Score = ringscore;
         ScoreText.text = Score.ToString();
     }
 
